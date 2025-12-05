@@ -5,39 +5,39 @@
 
 //conditional statements - based on certain condition we can use conditional statments
 //IF CONDITION
-if(true){
+if (true) {
     console.log("hello")
 }
-let age:number=18;
-if(age>18){
+let age: number = 18;
+if (age > 18) {
     console.log("eligible for vote")
 }
 //IF-ELSE CONDITION
 
-if(age>18){
+if (age > 18) {
     console.log("eligible for vote")
-} else{
+} else {
     console.log("not eligible for Vote")
 }
 
-let num:number=15
-if(num%2==0){
+let num: number = 15
+if (num % 2 == 0) {
     console.log(`${num} is Even number`)
 }
-else{
+else {
     console.log(`${num} is not even Even number`)
 }
 
 //IF ELSE IF - nested if else condtion
 // main use case from autoamtion perspective - we can use when we select browser mode
 
-let fname:string="Dayanand"
+let fname: string = "Dayanand"
 
-if(fname=='daya'){
+if (fname == 'daya') {
     console.log("name matched at first condition")
-} else if(fname='DAYANAND'){
+} else if (fname = 'DAYANAND') {
     console.log("name matched at 2nd condition")
-} else if(fname="Dayanand"){
+} else if (fname = "Dayanand") {
     console.log("name matched at 3rd condition")
 } else {
     console.log("name not matched")
@@ -46,37 +46,37 @@ if(fname=='daya'){
 //Switch case statement - 
 // difference between condition and expression - expression can return anything, condition will return true or 
 //false
-let day:number=3
-switch(day){
+let day: number = 3
+switch (day) {
     case 1:
-         console.log("Sunday")
-         break
+        console.log("Sunday")
+        break
     case 2:
-         console.log("Monday")
-         break  
+        console.log("Monday")
+        break
     case 3:
-         console.log("Tuesday")
-         break
+        console.log("Tuesday")
+        break
     case 4:
-         console.log("Wednesday")
-         break
+        console.log("Wednesday")
+        break
     case 5:
-         console.log("Thursday")
-         break
+        console.log("Thursday")
+        break
     case 6:
-         console.log("Friday")
-         break     
+        console.log("Friday")
+        break
     case 7:
-         console.log("Saturday")
-         break     
+        console.log("Saturday")
+        break
 
     default:
         console.log("invalid number")
 }
 
-let num1:number=20;
-let num2:number=30;
-switch(num1+num2){
+let num1: number = 20;
+let num2: number = 30;
+switch (num1 + num2) {
     case 10:
         console.log("yes sum is 10")
         break
@@ -88,7 +88,7 @@ switch(num1+num2){
         break
     case 60:
         console.log("yes sum is 60")
-        break          
+        break
     default: console.log("no case available")
 }
 
@@ -98,8 +98,8 @@ switch(num1+num2){
 // starting point, incrementation, ending point 
 // print 5 numbers
 
-let value:number=1
-while(value<10){
+let value: number = 1
+while (value < 10) {
     console.log(value)
     value++
 }
